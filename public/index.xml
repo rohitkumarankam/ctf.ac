@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>CTF Academy</title>
+        <link>https://ctf.ac/</link>
+        <description>CTF walkthorughs and writeups.</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 16 Aug 2021 01:06:01 &#43;0530</lastBuildDate>
+            <atom:link href="https://ctf.ac/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>About</title>
+    <link>https://ctf.ac/about/</link>
+    <pubDate>Mon, 16 Aug 2021 01:06:01 &#43;0530</pubDate>
+    <author>Author</author>
+    <guid>https://ctf.ac/about/</guid>
+    <description><![CDATA[ this is a subsidery project of pentesttime.org
+ ]]></description>
+</item></channel>
+</rss>
