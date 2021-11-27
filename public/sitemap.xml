@@ -2,8 +2,6 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://ctf.ac/about/</loc><lastmod>2021-08-16T01:06:01&#43;05:30</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url><url>
-            <loc>https://ctf.ac/</loc><lastmod>2021-08-16T01:06:01&#43;05:30</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url><url>
-            <loc>https://ctf.ac/posts/</loc><lastmod>2021-08-16T01:06:01&#43;05:30</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url><url>
-            <loc>https://ctf.ac/categories/</loc><changefreq>daily</changefreq><priority>0.5</priority></url><url>
-            <loc>https://ctf.ac/tags/</loc><changefreq>daily</changefreq><priority>0.5</priority></url></urlset>
+            <loc>http://ctf.ac/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://ctf.ac/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://ctf.ac/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
