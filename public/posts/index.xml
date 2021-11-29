@@ -1,15 +1,17 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - CTF Academy</title>
-        <link>https://ctf.ac/posts/</link>
+        <link>http://ctf.ac/posts/</link>
         <description>All Posts | CTF Academy</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 16 Aug 2021 01:06:01 &#43;0530</lastBuildDate><atom:link href="https://ctf.ac/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>About</title>
-    <link>https://ctf.ac/about/</link>
-    <pubDate>Mon, 16 Aug 2021 01:06:01 &#43;0530</pubDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>rohit@rka.li (Rohit Kumar Ankam)</managingEditor>
+            <webMaster>rohit@rka.li (Rohit Kumar Ankam)</webMaster><lastBuildDate>Mon, 29 Nov 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://ctf.ac/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Crack the hash - Tryhackme</title>
+    <link>http://ctf.ac/crack-the-hash/</link>
+    <pubDate>Mon, 29 Nov 2021 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://ctf.ac/about/</guid>
-    <description><![CDATA[ this is a subsidery project of pentesttime.org
- ]]></description>
+    <guid>http://ctf.ac/crack-the-hash/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/thumbnail.png" referrerpolicy="no-referrer">
+            </div>Cracking hashes.]]></description>
 </item></channel>
 </rss>

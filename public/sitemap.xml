@@ -2,6 +2,10 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://ctf.ac/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://ctf.ac/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://ctf.ac/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>http://ctf.ac/categories/</loc><lastmod>2021-11-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://ctf.ac/crack-the-hash/</loc><lastmod>2021-11-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://ctf.ac/categories/cryptography/</loc><lastmod>2021-11-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://ctf.ac/</loc><lastmod>2021-11-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://ctf.ac/tags/hashing/</loc><lastmod>2021-11-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://ctf.ac/posts/</loc><lastmod>2021-11-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://ctf.ac/tags/</loc><lastmod>2021-11-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>
