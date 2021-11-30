@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2021-08-16T01:06:01+05:30
-draft: true
+draft: false
 # uBlogger NEW | 1.2.0 Allows you to hide the preview image on the article page
 hiddenFeaturedImage: false
 
@@ -27,12 +27,12 @@ categories: []
 featuredImage: ""
 featuredImagePreview: ""
 
-hiddenFromHomePage: false
-hiddenFromSearch: false
+hiddenFromHomePage: true
+hiddenFromSearch: true
 
 code:
   copy: true
   maxShownLines: 500
 ---
 
-> this is a subsidery project of [pentesttime.org](https://pentesttime.org)
+> **this is a subsidery project of [pentesttime.org](https://pentesttime.org) by [@RohitKumarAnkam](https://rohitkumarankam.com)**
