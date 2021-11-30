@@ -3,7 +3,7 @@ baseURL = "http://ctf.ac/"
 defaultContentLanguage = "en"
 
 languageCode = "en"
-title = "CTF Academy"
+title = "Capture The Flag Academy"
 
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 theme = "LoveIt"
