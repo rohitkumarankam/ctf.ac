@@ -2,8 +2,8 @@
 title: "Crack the hash - Tryhackme"
 date: 2021-11-29
 draft: false
-tags: ["hashing"]
-categories: ["cryptography",]
+tags: ["hashing","cryptography", "hashcat"]
+categories: ["cryptography"]
 featuredImage: "thumbnail.png"
 summary: "Cracking hashes."
 ---
