@@ -1,8 +1,10 @@
-# Crack the hash - Tryhackme
+# Crack the hash - TryHackMe
 
 
 
 **Room Link: https://tryhackme.com/room/crackthehash**
+
+**Room Difficulty: Easy**
 
 There are two ways to crack the hash.
 

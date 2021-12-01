@@ -1,15 +1,17 @@
 ---
-title: "Crack the hash - Tryhackme"
+title: "Crack the hash - TryHackMe"
 date: 2021-11-29
 draft: false
 tags: ["hashing","cryptography", "hashcat"]
-categories: ["cryptography"]
+categories: ["cryptography","TryHackMe"]
 featuredImage: "thumbnail.png"
 summary: "Cracking hashes."
 ---
 
 
 **Room Link: https://tryhackme.com/room/crackthehash**
+
+**Room Difficulty: Easy**
 
 There are two ways to crack the hash.
 

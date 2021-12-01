@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - Capture The Flag Academy</title>
-        <link>http://ctf.ac/posts/</link>
-        <description>All Posts | Capture The Flag Academy</description>
+        <title>TryHackMe - Category - Capture The Flag Academy</title>
+        <link>http://ctf.ac/categories/tryhackme/</link>
+        <description>TryHackMe - Category - Capture The Flag Academy</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>rohit@rka.li (Rohit Kumar Ankam)</managingEditor>
-            <webMaster>rohit@rka.li (Rohit Kumar Ankam)</webMaster><lastBuildDate>Wed, 01 Dec 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://ctf.ac/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>rohit@rka.li (Rohit Kumar Ankam)</webMaster><lastBuildDate>Wed, 01 Dec 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://ctf.ac/categories/tryhackme/" rel="self" type="application/rss+xml" /><item>
     <title>Advent of Cyber 1 [2019] - TryHackMe</title>
     <link>http://ctf.ac/25daysofchristmas/</link>
     <pubDate>Wed, 01 Dec 2021 00:00:00 &#43;0000</pubDate>
