@@ -10,7 +10,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://ctf.ac/25daysofchristmas/" /><meta property="og:image" content="http://ctf.ac/25daysofchristmas/thumbnail.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-12-01T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-12-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-12-02T13:35:07+05:30" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="http://ctf.ac/25daysofchristmas/thumbnail.png"/>
@@ -28,8 +28,8 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/ctf.ac\/25daysofchristmas\/"
-        },"genre": "posts","wordcount":  166 ,
-        "url": "http:\/\/ctf.ac\/25daysofchristmas\/","datePublished": "2021-12-01T00:00:00+00:00","dateModified": "2021-12-01T00:00:00+00:00","publisher": {
+        },"genre": "posts","keywords": "advent of cyber","wordcount":  371 ,
+        "url": "http:\/\/ctf.ac\/25daysofchristmas\/","datePublished": "2021-12-01T00:00:00+00:00","dateModified": "2021-12-02T13:35:07+05:30","publisher": {
             "@type": "Organization",
             "name": "Rohit Kumar Ankam"},"author": {
                 "@type": "Person",
@@ -119,8 +119,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">Advent of Cyber 1 [2019] - TryHackMe</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://rohitkumarankam.com/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Rohit Kumar Ankam</a></span>&nbsp;<span class="post-category">included in <a href="/categories/tryhackme/"><i class="far fa-folder fa-fw"></i>TryHackMe</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-12-01">2021-12-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;166 words&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;One minute&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-12-01">2021-12-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;371 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;2 minutes&nbsp;</div>
         </div><div class="featured-image"><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -137,12 +137,18 @@
   <ul>
     <li><a href="#day-1-inventory-management">[Day 1] Inventory Management</a>
       <ul>
-        <li><a href="#what-is-the-name-of-the-cookie-used-for-authentication">What is the name of the cookie used for authentication?</a></li>
-        <li><a href="#if-you-decode-the-cookie-what-is-the-value-of-the-fixed-part-of-the-cookie">If you decode the cookie, what is the value of the fixed part of the cookie?</a></li>
-        <li><a href="#after-accessing-his-account-what-did-the-user-mcinventory-request">After accessing his account, what did the user mcinventory request?</a></li>
+        <li><a href="#what-is-the-name-of-the-cookie-used-for-authentication">what is the name of the cookie used for authentication?</a></li>
+        <li><a href="#if-you-decode-the-cookie-what-is-the-value-of-the-fixed-part-of-the-cookie">if you decode the cookie, what is the value of the fixed part of the cookie?</a></li>
+        <li><a href="#after-accessing-his-account-what-did-the-user-mcinventory-request">after accessing his account, what did the user mcinventory request?</a></li>
       </ul>
     </li>
-    <li><a href="#day-2-arctic-forum">[Day 2] Arctic Forum</a></li>
+    <li><a href="#day-2-arctic-forum">[Day 2] Arctic Forum</a>
+      <ul>
+        <li><a href="#what-is-the-path-of-the-hidden-page">what is the path of the hidden page?</a></li>
+        <li><a href="#what-is-the-password-you-found">what is the password you found?</a></li>
+        <li><a href="#what-do-you-have-to-take-to-the-partay">what do you have to take to the &lsquo;partay&rsquo;?</a></li>
+      </ul>
+    </li>
     <li><a href="#day-3-evil-elf">[Day 3] Evil Elf</a></li>
     <li><a href="#day-4-training">[Day 4] Training</a></li>
     <li><a href="#day-5-ho-ho-hosint">[Day 5] Ho-Ho-Hosint</a></li>
@@ -172,8 +178,48 @@
 <p><strong>Room Difficulty: Easy</strong></p>
 <br>
 <h2 id="day-1-inventory-management">[Day 1] Inventory Management</h2>
-<p>This is a beginner friendly web authentication challenge.</p>
-<h3 id="what-is-the-name-of-the-cookie-used-for-authentication">What is the name of the cookie used for authentication?</h3>
+<p>deploy the room machine.
+go to http://machineip:3000/
+then it will redirect you to login page.
+<figure><a class="lightgallery" href="/25daysofchristmas/images/day1/loginpage.png" title="/25daysofchristmas/images/day1/loginpage.png" data-thumbnail="/25daysofchristmas/images/day1/loginpage.png" data-sub-html="<h2>login page</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="images/day1/loginpage.png"
+            data-srcset="/25daysofchristmas/images/day1/loginpage.png, images/day1/loginpage.png 1.5x, /25daysofchristmas/images/day1/loginpage.png 2x"
+            data-sizes="auto"
+            alt="/25daysofchristmas/images/day1/loginpage.png" width="100%" />
+    </a><figcaption class="image-caption">login page</figcaption>
+    </figure>
+register a new user account and login with it.</p>
+<p>credidentials i used:</p>
+<ul>
+<li>username: fakeuserrohit</li>
+<li>password: fakepasswordrohit</li>
+</ul>
+<p>now you see a home page like this.
+<figure><a class="lightgallery" href="/25daysofchristmas/images/day1/homepage.png" title="/25daysofchristmas/images/day1/homepage.png" data-thumbnail="/25daysofchristmas/images/day1/homepage.png" data-sub-html="<h2>home page</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="images/day1/homepage.png"
+            data-srcset="/25daysofchristmas/images/day1/homepage.png, images/day1/homepage.png 1.5x, /25daysofchristmas/images/day1/homepage.png 2x"
+            data-sizes="auto"
+            alt="/25daysofchristmas/images/day1/homepage.png" width="100%" />
+    </a><figcaption class="image-caption">home page</figcaption>
+    </figure></p>
+<h3 id="what-is-the-name-of-the-cookie-used-for-authentication">what is the name of the cookie used for authentication?</h3>
+<p>Open devtools&gt;storage&gt;cookies 
+<figure><a class="lightgallery" href="/25daysofchristmas/images/day1/cookie.png" title="/25daysofchristmas/images/day1/cookie.png" data-thumbnail="/25daysofchristmas/images/day1/cookie.png" data-sub-html="<h2>cookies</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="images/day1/cookie.png"
+            data-srcset="/25daysofchristmas/images/day1/cookie.png, images/day1/cookie.png 1.5x, /25daysofchristmas/images/day1/cookie.png 2x"
+            data-sizes="auto"
+            alt="/25daysofchristmas/images/day1/cookie.png" width="100%" />
+    </a><figcaption class="image-caption">cookies</figcaption>
+    </figure>
 <div class="details admonition success">
         <div class="details-summary admonition-title">
             <i class="icon fas fa-check-circle fa-fw"></i>Answer<i class="details-icon fas fa-angle-right fa-fw"></i>
@@ -181,8 +227,8 @@
         <div class="details-content">
             <div class="admonition-content"><strong>authid</strong></div>
         </div>
-    </div>
-<h3 id="if-you-decode-the-cookie-what-is-the-value-of-the-fixed-part-of-the-cookie">If you decode the cookie, what is the value of the fixed part of the cookie?</h3>
+    </div></p>
+<h3 id="if-you-decode-the-cookie-what-is-the-value-of-the-fixed-part-of-the-cookie">if you decode the cookie, what is the value of the fixed part of the cookie?</h3>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
             <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
@@ -199,6 +245,18 @@
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="s2">&#34;base64encodedstring&#34;</span> <span class="p">|</span> base64 -d
 </code></pre></td></tr></table>
 </div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">┌──<span class="o">(</span>kali㉿kali<span class="o">)</span>-<span class="o">[</span>~<span class="o">]</span>
+└─$ <span class="nb">echo</span> <span class="s2">&#34;ZmFrZXVzZXJyb2hpdHY0ZXI5bGwxIXNz&#34;</span> <span class="p">|</span> base64 -d
+fakeuserrohitv4er9ll1!ss
+</code></pre></td></tr></table>
+</div>
 </div><p>cookie format is: <strong>username+fixedpart</strong>
 <div class="details admonition success">
         <div class="details-summary admonition-title">
@@ -208,7 +266,31 @@
             <div class="admonition-content"><strong>v4er9ll1!ss</strong></div>
         </div>
     </div></p>
-<h3 id="after-accessing-his-account-what-did-the-user-mcinventory-request">After accessing his account, what did the user mcinventory request?</h3>
+<h3 id="after-accessing-his-account-what-did-the-user-mcinventory-request">after accessing his account, what did the user mcinventory request?</h3>
+<p>to find the answer to this question we need to encode <em>mcinventory</em> username with the fixed part of the cookie.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">┌──<span class="o">(</span>kali㉿kali<span class="o">)</span>-<span class="o">[</span>~<span class="o">]</span>
+└─$ <span class="nb">echo</span> -n <span class="s2">&#34;mcinventoryv4er9ll1!ss&#34;</span> <span class="p">|</span> base64
+<span class="nv">bWNpbnZlbnRvcnl2NGVyOWxsMSFzcw</span><span class="o">==</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>set cookie to <code>bWNpbnZlbnRvcnl2NGVyOWxsMSFzcw</code> and refresh the page
+<figure><a class="lightgallery" href="/25daysofchristmas/images/day1/inventory.png" title="/25daysofchristmas/images/day1/inventory.png" data-thumbnail="/25daysofchristmas/images/day1/inventory.png" data-sub-html="<h2>inventory page</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="images/day1/inventory.png"
+            data-srcset="/25daysofchristmas/images/day1/inventory.png, images/day1/inventory.png 1.5x, /25daysofchristmas/images/day1/inventory.png 2x"
+            data-sizes="auto"
+            alt="/25daysofchristmas/images/day1/inventory.png" width="100%" />
+    </a><figcaption class="image-caption">inventory page</figcaption>
+    </figure></p>
 <p><div class="details admonition success">
         <div class="details-summary admonition-title">
             <i class="icon fas fa-check-circle fa-fw"></i>Answer<i class="details-icon fas fa-angle-right fa-fw"></i>
@@ -219,7 +301,83 @@
     </div>
 <br></p>
 <h2 id="day-2-arctic-forum">[Day 2] Arctic Forum</h2>
-<br>
+<p>deploy the room machine.
+go to http://machineip:3000/
+then it will redirect you to login page.
+<figure><a class="lightgallery" href="/25daysofchristmas/images/day2/loginpage.png" title="/25daysofchristmas/images/day2/loginpage.png" data-thumbnail="/25daysofchristmas/images/day2/loginpage.png" data-sub-html="<h2>login page</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="images/day2/loginpage.png"
+            data-srcset="/25daysofchristmas/images/day2/loginpage.png, images/day2/loginpage.png 1.5x, /25daysofchristmas/images/day2/loginpage.png 2x"
+            data-sizes="auto"
+            alt="/25daysofchristmas/images/day2/loginpage.png" width="100%" />
+    </a><figcaption class="image-caption">login page</figcaption>
+    </figure>
+there is no link to register a new user account.
+bruit force is not useful here.</p>
+<h3 id="what-is-the-path-of-the-hidden-page">what is the path of the hidden page?</h3>
+<p>so let&rsquo;s launch dirbuster with medium dictionary.
+<figure><a class="lightgallery" href="/25daysofchristmas/images/day2/dirbuster.png" title="/25daysofchristmas/images/day2/dirbuster.png" data-thumbnail="/25daysofchristmas/images/day2/dirbuster.png" data-sub-html="<h2>dirbuster</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="images/day2/dirbuster.png"
+            data-srcset="/25daysofchristmas/images/day2/dirbuster.png, images/day2/dirbuster.png 1.5x, /25daysofchristmas/images/day2/dirbuster.png 2x"
+            data-sizes="auto"
+            alt="/25daysofchristmas/images/day2/dirbuster.png" width="100%" />
+    </a><figcaption class="image-caption">dirbuster</figcaption>
+    </figure>
+<div class="details admonition success">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-check-circle fa-fw"></i>Answer<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><strong>/sysadmin</strong></div>
+        </div>
+    </div></p>
+<h3 id="what-is-the-password-you-found">what is the password you found?</h3>
+<p>lets try to login with some default credentials.
+<figure><a class="lightgallery" href="/25daysofchristmas/images/day2/defaultpass.png" title="/25daysofchristmas/images/day2/defaultpass.png" data-thumbnail="/25daysofchristmas/images/day2/defaultpass.png" data-sub-html="<h2>default credentials</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="images/day2/defaultpass.png"
+            data-srcset="/25daysofchristmas/images/day2/defaultpass.png, images/day2/defaultpass.png 1.5x, /25daysofchristmas/images/day2/defaultpass.png 2x"
+            data-sizes="auto"
+            alt="/25daysofchristmas/images/day2/defaultpass.png" width="100%" />
+    </a><figcaption class="image-caption">default credentials</figcaption>
+    </figure>
+<div class="details admonition success">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-check-circle fa-fw"></i>Answer<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><strong>defaultpass</strong></div>
+        </div>
+    </div></p>
+<h3 id="what-do-you-have-to-take-to-the-partay">what do you have to take to the &lsquo;partay&rsquo;?</h3>
+<p>after you login, you will be redirected to the home page.
+<figure><a class="lightgallery" href="/25daysofchristmas/images/day2/homepage.png" title="/25daysofchristmas/images/day2/homepage.png" data-thumbnail="/25daysofchristmas/images/day2/homepage.png" data-sub-html="<h2>home page</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="images/day2/homepage.png"
+            data-srcset="/25daysofchristmas/images/day2/homepage.png, images/day2/homepage.png 1.5x, /25daysofchristmas/images/day2/homepage.png 2x"
+            data-sizes="auto"
+            alt="/25daysofchristmas/images/day2/homepage.png" width="100%" />
+    </a><figcaption class="image-caption">home page</figcaption>
+    </figure>
+you can see the answer at all entries.
+<div class="details admonition success">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-check-circle fa-fw"></i>Answer<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><strong>Eggnog</strong></div>
+        </div>
+    </div>
+<br></p>
 <h2 id="day-3-evil-elf">[Day 3] Evil Elf</h2>
 <br>
 <h2 id="day-4-training">[Day 4] Training</h2>
@@ -269,7 +427,8 @@
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2021-12-01</span>
+                <span>Updated on 2021-12-02&nbsp;<a class="git-hash" href="https://github.com/rohitkumarankam/ctf.ac/commit/2bf8bf8e5418565c5f9ead759421570eb853c70c" target="_blank" title="commit by rohitkumarankam(rohitkumarankam@gmail.com) 2bf8bf8e5418565c5f9ead759421570eb853c70c: Revert &#34;removed advent of cyber 2019&#34;">
+                                    <i class="fas fa-hashtag fa-fw"></i>2bf8bf8</a></span>
             </div>
             <div class="post-info-license"></div>
         </div>
@@ -278,13 +437,13 @@
                             <a class="link-to-markdown" href="/25daysofchristmas/index.md" target="_blank">Read Markdown</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://ctf.ac/25daysofchristmas/" data-title="Advent of Cyber 1 [2019] - TryHackMe" data-via="rohitkumarankam"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://ctf.ac/25daysofchristmas/"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="http://ctf.ac/25daysofchristmas/"><i class="fab fa-linkedin fa-fw"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="http://ctf.ac/25daysofchristmas/" data-title="Advent of Cyber 1 [2019] - TryHackMe" data-web><i class="fab fa-whatsapp fa-fw"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://ctf.ac/25daysofchristmas/" data-title="Advent of Cyber 1 [2019] - TryHackMe" data-via="rohitkumarankam" data-hashtags="advent of cyber"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://ctf.ac/25daysofchristmas/" data-hashtag="advent of cyber"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="http://ctf.ac/25daysofchristmas/"><i class="fab fa-linkedin fa-fw"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="http://ctf.ac/25daysofchristmas/" data-title="Advent of Cyber 1 [2019] - TryHackMe" data-web><i class="fab fa-whatsapp fa-fw"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/advent-of-cyber/">advent of cyber</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>

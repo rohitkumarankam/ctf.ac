@@ -2,7 +2,7 @@
 title: "Advent of Cyber 1 [2019] - TryHackMe"
 date: 2021-12-01
 draft: false
-tags: []
+tags: ["advent of cyber"]
 categories: ["TryHackMe"]
 featuredImage: "thumbnail.png"
 summary: "Get started with Cyber Security in 25 Days - Learn the basics by doing a new, beginner friendly security challenge every day leading up to Christmas."
@@ -15,29 +15,83 @@ summary: "Get started with Cyber Security in 25 Days - Learn the basics by doing
 <br>
 
 ## [Day 1] Inventory Management
-This is a beginner friendly web authentication challenge.
-### What is the name of the cookie used for authentication?
+deploy the room machine.
+go to http://machineip:3000/
+then it will redirect you to login page.
+{{< image src="images/day1/loginpage.png" width="100%" caption="login page">}}
+register a new user account and login with it.
+
+credidentials i used:
+
+* username: fakeuserrohit
+* password: fakepasswordrohit
+
+now you see a home page like this.
+{{< image src="images/day1/homepage.png" width="100%" caption="home page">}}
+
+### what is the name of the cookie used for authentication?
+Open devtools>storage>cookies 
+{{< image src="images/day1/cookie.png" width="100%" caption="cookies">}}
 {{< admonition success "Answer" false >}}
 **authid**
 {{</ admonition >}}
-### If you decode the cookie, what is the value of the fixed part of the cookie?
+### if you decode the cookie, what is the value of the fixed part of the cookie?
 {{< admonition note "Note" true >}}
 cookie is encoded with base64
 {{</ admonition >}}
 ```bash
 echo "base64encodedstring" | base64 -d
 ```
+```bash
+┌──(kali㉿kali)-[~]
+└─$ echo "ZmFrZXVzZXJyb2hpdHY0ZXI5bGwxIXNz" | base64 -d
+fakeuserrohitv4er9ll1!ss
+```
 cookie format is: **username+fixedpart**
 {{< admonition success "Answer" false >}}
 **v4er9ll1!ss**
 {{</ admonition >}}
-### After accessing his account, what did the user mcinventory request?
+### after accessing his account, what did the user mcinventory request?
+to find the answer to this question we need to encode *mcinventory* username with the fixed part of the cookie.
+```bash
+┌──(kali㉿kali)-[~]
+└─$ echo -n "mcinventoryv4er9ll1!ss" | base64
+bWNpbnZlbnRvcnl2NGVyOWxsMSFzcw==
+```
+set cookie to `bWNpbnZlbnRvcnl2NGVyOWxsMSFzcw` and refresh the page
+{{< image src="images/day1/inventory.png" width="100%" caption="inventory page">}}
+
 {{< admonition success "Answer" false >}}
 **firewall**
 {{</ admonition >}}
 <br>
 
 ## [Day 2] Arctic Forum
+deploy the room machine.
+go to http://machineip:3000/
+then it will redirect you to login page.
+{{< image src="images/day2/loginpage.png" width="100%" caption="login page">}}
+there is no link to register a new user account.
+bruit force is not useful here.
+### what is the path of the hidden page?
+so let's launch dirbuster with medium dictionary.
+{{< image src="images/day2/dirbuster.png" width="100%" caption="dirbuster">}}
+{{< admonition success "Answer" false >}}
+**/sysadmin**
+{{</ admonition >}}
+### what is the password you found?
+lets try to login with some default credentials.
+{{< image src="images/day2/defaultpass.png" width="100%" caption="default credentials">}}
+{{< admonition success "Answer" false >}}
+**defaultpass**
+{{</ admonition >}}
+### what do you have to take to the 'partay'?
+after you login, you will be redirected to the home page.
+{{< image src="images/day2/homepage.png" width="100%" caption="home page">}}
+you can see the answer at all entries.
+{{< admonition success "Answer" false >}}
+**Eggnog**
+{{</ admonition >}}
 <br>
 
 ## [Day 3] Evil Elf
