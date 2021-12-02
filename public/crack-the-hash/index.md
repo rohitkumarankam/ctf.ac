@@ -42,14 +42,14 @@ nth --text "48bb6e862e54f2a795ffc4e541caed4d"
 ```
 
 
-{{< image src="hashtypefirst.png" width="100%" caption="name-that-hash result">}}
+{{< image src="hashtypefirst.webp" width="100%" caption="name-that-hash result">}}
 
 we can easily tell this is a md5 hash. because the string length is 32.
 [crackstation](https://crackstation.net/) is a good to use here.
 
 we can easily crack this by using [crackstation.net](https://crackstation.net/)
 
-{{< image src="first-hash.png" width="100%" caption="`crackstation result`">}}
+{{< image src="first-hash.webp" width="100%" caption="`crackstation result`">}}
 
 {{< admonition success "Answer of Level 1 Challenge 1" true >}}
 **easy**
@@ -59,14 +59,14 @@ we can easily crack this by using [crackstation.net](https://crackstation.net/)
 
 ### challenge 2
 
-{{< image src="hashtypesecond.png" width="100%" caption="name-that-hash result">}}
+{{< image src="hashtypesecond.webp" width="100%" caption="name-that-hash result">}}
 
 we can solve **SHA-1** by using https://crackstation.net.
 
 ```hash
 CBFDAC6008F9CAB4083784CBD1874F76618D2A97
 ```
-{{< image src="second-hash.png" width="100%" caption="`crackstation result`">}}
+{{< image src="second-hash.webp" width="100%" caption="`crackstation result`">}}
 
 {{< admonition success "Answer of Level 1 Challenge 2" true >}}
 **password123**
@@ -78,11 +78,11 @@ CBFDAC6008F9CAB4083784CBD1874F76618D2A97
 ```hash
 1C8BFE8F801D79745C4631D09FFF36C82AA37FC4CCE4FC946683D7B336B63032
 ```
-{{< image src="hashtypethird.png" width="100%" caption="name-that-hash result">}}
+{{< image src="hashtypethird.webp" width="100%" caption="name-that-hash result">}}
 
 we can solve **SHA-256** by using https://crackstation.net.
 
-{{< image src="third-hash.png" width="100%" caption="`crackstation result`">}}
+{{< image src="third-hash.webp" width="100%" caption="`crackstation result`">}}
 
 {{< admonition success "Answer of Level 1 Challenge 3" true >}}
 **letmein**
@@ -94,7 +94,7 @@ we can solve **SHA-256** by using https://crackstation.net.
 ```hash
 $2y$12$Dwt1BZj6pcyc3Dy1FWZ5ieeUznr71EeNkJkUlypTsgbX1H68wsRom
 ```
-{{< image src="hashtypefourth.png" width="100%" caption="name-that-hash result">}}
+{{< image src="hashtypefourth.webp" width="100%" caption="name-that-hash result">}}
 
 We cannot solve **bcrypt** hashes with online cracking tools. We need to use offline cracking tools.
 I use [hashcat](https://hashcat.net/hashcat/) because it uses gpu to crack the hashes faster.
@@ -117,8 +117,8 @@ It took me **Three hours** with **GTX 1650 GPU**.
 ```
 279412f945939ba78ce0758d3fd83daa
 ```
-{{< image src="hashtypefifth.png" width="100%" caption="name-the-hash result">}}
-{{< image src="fifth-hash.png" width="100%" caption="`crackstation result`">}}
+{{< image src="hashtypefifth.webp" width="100%" caption="name-the-hash result">}}
+{{< image src="fifth-hash.webp" width="100%" caption="`crackstation result`">}}
 {{< admonition success "Answer of Level 1 Challenge 5" true >}}
 **Eternity22**
 {{</ admonition >}}
@@ -130,7 +130,7 @@ all of the challenges in Level 2 are can be solved with hashcat and rockyou.txt.
 ```
 F09EDCB1FCEFC6DFB23DC3505A882655FF77375ED8AA2D1C13F640FCCC2D0C85
 ```
-{{< image src="firsthash.png" width="100%" caption="name-the-hash result">}}
+{{< image src="firsthash.webp" width="100%" caption="name-the-hash result">}}
 
 ```bash
 ┌──(kali㉿kali)-[~]
@@ -178,7 +178,7 @@ Stopped: Tue Nov 30 11:18:05 2021
 ```
 1DFECA0C002AE40B8619ECF94819CC1B
 ```
-{{< image src="secondhash.png" width="100%" caption="name-the-hash result">}}
+{{< image src="secondhash.webp" width="100%" caption="name-the-hash result">}}
 ```bash
 ┌──(kali㉿kali)-[~]
 └─$ hashcat -m 1000 "1DFECA0C002AE40B8619ECF94819CC1B" /usr/share/wordlists/rockyou.txt 
@@ -232,7 +232,7 @@ $6$aReallyHardSalt$6WKUTqzq.UQQmrm0p/T7MPpMbGNnzXPMAXi4bJMl9be.cfi3/qxIf.hsGpS41
 ```
 <br>
 
-{{< image src="thirdhash.png" width="100%" caption="name-the-hash result">}}
+{{< image src="thirdhash.webp" width="100%" caption="name-the-hash result">}}
 ```ps
 PS C:\Users\rohit> hashcat -m 1800 C:\hash\hash.txt C:\hash\rockyou.txt
 hashcat (v6.2.5) starting
@@ -293,7 +293,7 @@ Stopped: Tue Nov 30 22:13:42 2021
 ```
 e5d8870e5bdd26602cab8dbe07a942c8669e56d6:tryhackme
 ```
-{{< image src="fourthhash.png" width="100%" caption="**name-the-hash result**">}}
+{{< image src="fourthhash.webp" width="100%" caption="**name-the-hash result**">}}
 ```bash
 ┌──(kali㉿kali)-[~]
 └─$ hashcat -m 160 e5d8870e5bdd26602cab8dbe07a942c8669e56d6:tryhackme /usr/share/wordlists/rockyou.txt 

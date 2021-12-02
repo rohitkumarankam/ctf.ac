@@ -4,7 +4,7 @@ date: 2021-12-01
 draft: false
 tags: ["advent of cyber"]
 categories: ["TryHackMe"]
-featuredImage: "thumbnail.png"
+featuredImage: "thumbnail.webp"
 summary: "Get started with Cyber Security in 25 Days - Learn the basics by doing a new, beginner friendly security challenge every day leading up to Christmas."
 ---
 
@@ -18,7 +18,7 @@ summary: "Get started with Cyber Security in 25 Days - Learn the basics by doing
 deploy the room machine.
 go to http://machineip:3000/
 then it will redirect you to login page.
-{{< image src="images/day1/loginpage.png" width="100%" caption="login page">}}
+{{< image src="images/day1/loginpage.webp" width="100%" caption="login page">}}
 register a new user account and login with it.
 
 credidentials i used:
@@ -27,11 +27,11 @@ credidentials i used:
 * password: fakepasswordrohit
 
 now you see a home page like this.
-{{< image src="images/day1/homepage.png" width="100%" caption="home page">}}
+{{< image src="images/day1/homepage.webp" width="100%" caption="home page">}}
 
 ### what is the name of the cookie used for authentication?
 Open devtools>storage>cookies 
-{{< image src="images/day1/cookie.png" width="100%" caption="cookies">}}
+{{< image src="images/day1/cookie.webp" width="100%" caption="cookies">}}
 {{< admonition success "Answer" false >}}
 **authid**
 {{</ admonition >}}
@@ -59,7 +59,7 @@ to find the answer to this question we need to encode *mcinventory* username wit
 bWNpbnZlbnRvcnl2NGVyOWxsMSFzcw==
 ```
 set cookie to `bWNpbnZlbnRvcnl2NGVyOWxsMSFzcw` and refresh the page
-{{< image src="images/day1/inventory.png" width="100%" caption="inventory page">}}
+{{< image src="images/day1/inventory.webp" width="100%" caption="inventory page">}}
 
 {{< admonition success "Answer" false >}}
 **firewall**
@@ -70,24 +70,24 @@ set cookie to `bWNpbnZlbnRvcnl2NGVyOWxsMSFzcw` and refresh the page
 deploy the room machine.
 go to http://machineip:3000/
 then it will redirect you to login page.
-{{< image src="images/day2/loginpage.png" width="100%" caption="login page">}}
+{{< image src="images/day2/loginpage.webp" width="100%" caption="login page">}}
 there is no link to register a new user account.
 bruit force is not useful here.
 ### what is the path of the hidden page?
 so let's launch dirbuster with medium dictionary.
-{{< image src="images/day2/dirbuster.png" width="100%" caption="dirbuster">}}
+{{< image src="images/day2/dirbuster.webp" width="100%" caption="dirbuster">}}
 {{< admonition success "Answer" false >}}
 **/sysadmin**
 {{</ admonition >}}
 ### what is the password you found?
 lets try to login with some default credentials.
-{{< image src="images/day2/defaultpass.png" width="100%" caption="default credentials">}}
+{{< image src="images/day2/defaultpass.webp" width="100%" caption="default credentials">}}
 {{< admonition success "Answer" false >}}
 **defaultpass**
 {{</ admonition >}}
 ### what do you have to take to the 'partay'?
 after you login, you will be redirected to the home page.
-{{< image src="images/day2/homepage.png" width="100%" caption="home page">}}
+{{< image src="images/day2/homepage.webp" width="100%" caption="home page">}}
 you can see the answer at all entries.
 {{< admonition success "Answer" false >}}
 **Eggnog**
