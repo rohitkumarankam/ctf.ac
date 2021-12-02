@@ -2,7 +2,7 @@
     <channel>
         <title>Capture The Flag Academy</title>
         <link>http://ctf.ac/</link>
-        <description>site description</description>
+        <description>TryHackMe, HackTheBox and other CTFs Writeups and Walkthroughs at one place.</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>rohit@rka.li (Rohit Kumar Ankam)</managingEditor>
             <webMaster>rohit@rka.li (Rohit Kumar Ankam)</webMaster><lastBuildDate>Wed, 01 Dec 2021 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="http://ctf.ac/index.xml" rel="self" type="application/rss+xml" />

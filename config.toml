@@ -4,6 +4,7 @@ defaultContentLanguage = "en"
 
 languageCode = "en"
 title = "Capture The Flag Academy"
+description = "Capture The Flag Academy"
 
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 theme = "LoveIt"
@@ -14,7 +15,8 @@ summaryLength = 200
   # LoveIt theme version
   version = "0.2.X"
   defaultTheme = "dark"
-  description = "site description"
+  description = "TryHackMe, HackTheBox and other CTFs Writeups and Walkthroughs at one place." 
+  keywords = ["TryHackMe", "HackTheBox", "CTF", "Capture The Flag", "CTF Academy", "Capture The Flag Academy", "Rohit Kumar Ankam", ]
   gitRepo = "https://github.com/rohitkumarankam/ctf.ac"
   dateFormat = "2006-01-02"
   images = [""]
@@ -179,7 +181,7 @@ summaryLength = 200
 
 # Sitemap config
 [sitemap]
-  changefreq = "weekly"
+  changefreq = "daily"
   filename = "sitemap.xml"
   priority = 0.5
 
