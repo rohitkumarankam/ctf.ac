@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: http://ctf.ac/sitemap.xml
+Sitemap: https://ctf.ac/sitemap.xml

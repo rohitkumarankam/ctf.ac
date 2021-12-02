@@ -1,26 +1,26 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Capture The Flag Academy</title>
-        <link>http://ctf.ac/</link>
+        <link>https://ctf.ac/</link>
         <description>TryHackMe, HackTheBox and other CTFs Writeups and Walkthroughs at one place.</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>rohit@rka.li (Rohit Kumar Ankam)</managingEditor>
             <webMaster>rohit@rka.li (Rohit Kumar Ankam)</webMaster><lastBuildDate>Wed, 01 Dec 2021 00:00:00 &#43;0000</lastBuildDate>
-            <atom:link href="http://ctf.ac/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="https://ctf.ac/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Advent of Cyber 1 [2019] - TryHackMe</title>
-    <link>http://ctf.ac/25daysofchristmas/</link>
+    <link>https://ctf.ac/25daysofchristmas/</link>
     <pubDate>Wed, 01 Dec 2021 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>http://ctf.ac/25daysofchristmas/</guid>
+    <guid>https://ctf.ac/25daysofchristmas/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/thumbnail.webp" referrerpolicy="no-referrer">
             </div>Get started with Cyber Security in 25 Days - Learn the basics by doing a new, beginner friendly security challenge every day leading up to Christmas.]]></description>
 </item><item>
     <title>Crack the hash - TryHackMe</title>
-    <link>http://ctf.ac/crack-the-hash/</link>
+    <link>https://ctf.ac/crack-the-hash/</link>
     <pubDate>Mon, 29 Nov 2021 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>http://ctf.ac/crack-the-hash/</guid>
+    <guid>https://ctf.ac/crack-the-hash/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/thumbnail.webp" referrerpolicy="no-referrer">
             </div>Cracking hashes.]]></description>
