@@ -41,7 +41,7 @@ summaryLength = 200
     rss = 10
     [params.home.profile]
       enable = true
-      gravatarEmail = 'rohitkumarankam@gmail.com'
+      avatarURL = "/profile.webp"
       title = "CTFs and penetration testing guides."
       subtitle = "Don't be a Script Kiddie."
       typeit = true
