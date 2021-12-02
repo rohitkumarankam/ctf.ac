@@ -2,14 +2,15 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://ctf.ac/</loc><lastmod>2021-12-01T19:40:59&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://ctf.ac/categories/</loc><lastmod>2021-12-01T19:40:59&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://ctf.ac/crack-the-hash/</loc><lastmod>2021-12-01T19:40:59&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://ctf.ac/tags/cryptography/</loc><lastmod>2021-12-01T19:40:59&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://ctf.ac/categories/cryptography/</loc><lastmod>2021-12-01T19:40:59&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://ctf.ac/tags/hashcat/</loc><lastmod>2021-12-01T19:40:59&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://ctf.ac/tags/hashing/</loc><lastmod>2021-12-01T19:40:59&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://ctf.ac/posts/</loc><lastmod>2021-12-01T19:40:59&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://ctf.ac/tags/</loc><lastmod>2021-12-01T19:40:59&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://ctf.ac/categories/tryhackme/</loc><lastmod>2021-12-01T19:40:59&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://ctf.ac/25daysofchristmas/</loc><lastmod>2021-12-01T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://ctf.ac/</loc><lastmod>2021-12-01T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://ctf.ac/categories/</loc><lastmod>2021-12-01T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://ctf.ac/posts/</loc><lastmod>2021-12-01T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://ctf.ac/categories/tryhackme/</loc><lastmod>2021-12-01T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://ctf.ac/crack-the-hash/</loc><lastmod>2021-11-30T23:41:51&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://ctf.ac/tags/cryptography/</loc><lastmod>2021-11-30T23:41:51&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://ctf.ac/categories/cryptography/</loc><lastmod>2021-11-30T23:41:51&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://ctf.ac/tags/hashcat/</loc><lastmod>2021-11-30T23:41:51&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://ctf.ac/tags/hashing/</loc><lastmod>2021-11-30T23:41:51&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://ctf.ac/tags/</loc><lastmod>2021-11-30T23:41:51&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://ctf.ac/about/</loc><lastmod>2021-11-30T23:37:19&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>
