@@ -24,7 +24,7 @@ summaryLength = 200
     desktopMode = "fixed"
     mobileMode = "auto"
     [params.header.title]
-        logo = "/favicon-32x32.png"
+        logo = "/favicon-32x32.webp"
         name = "ctf.ac"
   [params.footer]
     enable = true
