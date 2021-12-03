@@ -1,7 +1,7 @@
 ---
 title: "Advent of Cyber 1 [2019] - TryHackMe"
 date: 2021-12-01
-draft: false
+draft: true
 tags: ["advent of cyber"]
 categories: ["TryHackMe"]
 featuredImage: "thumbnail.webp"
