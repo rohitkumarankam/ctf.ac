@@ -19,7 +19,7 @@ summaryLength = 200
   keywords = ["TryHackMe", "HackTheBox", "CTF", "Capture The Flag", "CTF Academy", "Capture The Flag Academy", "Rohit Kumar Ankam", ]
   gitRepo = "https://github.com/rohitkumarankam/ctf.ac"
   dateFormat = "2006-01-02"
-  images = ["https://rohitkumarankam.com/projects/ctf.ac/screenshot.webp"]
+  images = ["https://ctf.ac/android-chrome-512x512.png"]
   [params.header]
     desktopMode = "fixed"
     mobileMode = "auto"
